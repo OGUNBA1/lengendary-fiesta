@@ -1,0 +1,186 @@
+@import url('https//fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=Swap');
+@import url('https//fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=Swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+body{
+    background: hsl(217, 28%, 14%);
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+}
+nav{
+    width: 85%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo{
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+}
+ul.navbar{
+    list-style: none;
+    display: flex;
+}
+ul.navbar li{ 
+    width: 100px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul.navbar li a:hover{
+    text-decoration: underline;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.intro-desc{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.illustration{
+    width: 470px;
+    margin-bottom: 30px;
+}
+.intro-desc h1{
+    font-size: 2rem;
+    line-height: 2.rem;
+    margin-bottom: 25px;
+    font-family: 'Raleway',sans-serif;
+}
+.intro-desc p{
+    width: 500px;
+    line-height: 1.6rem;
+    font-weight: 700px;
+    margin: 0 auto 30px;
+}
+#btn{
+    width: 250px;
+    padding: 14px;
+    outline: none;
+    border-radius: 25px;
+    background: #595959;
+    color: #fff
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.curvy-bg{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: -210px;
+    z-index: -1;
+}
+.section-2{
+    width: 100%;
+    height: auto;
+    background: hsl(218, 28%, 12%);
+    position: relative;
+    top: -210px;
+    z-index: -1;
+
+}
+.services{
+    width: 70px;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service-desc{
+    width: 400px;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+}
+.service-desc h2{
+    font-size: 1.2rem;
+    font-family: 'Raleway', open sans;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+/*
+//media query for small devices */
+
+@media screen and (max-width: 375px){
+    nav{
+        width: 90%;
+    }
+    .logo{
+        width: 70px;
+        height: auto;
+    }
+    ul.navbar li{
+        width: 70px;
+        margin-right: 5px;
+    }
+    ul.navbar li :nth-child(2){
+        width: 50px;
+    }
+    ul.navber li:nth-child(3){
+        width: 50px;
+    }
+    .section-1{
+        width: 300px;
+        margin: auto;
+    }
+    .illustration{
+        width: 350px;
+    }
+    .intro-desc{
+        width: 300px;
+        margin: auto;
+    }
+    .intro-desc h1{
+        font-size: 1.5 rem;
+        line-height: 2rem;
+    }
+    .intro-desc p{
+        width: 318px;
+        line-height: 1.5rem;
+    }
+
+    #btn{
+        width: 200px;
+    }
+    .curvy-bg{
+        display: none;
+    }
+    /*Media query for section starts here*/ 
+}
+    
+
+
+
+
+
+
+
+
